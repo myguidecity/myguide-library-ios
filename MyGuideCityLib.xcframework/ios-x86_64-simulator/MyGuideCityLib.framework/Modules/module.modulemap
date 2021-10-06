@@ -1,0 +1,11 @@
+framework module MyGuideCityLib {
+  umbrella header "MyGuideCityLib.h"
+
+  export *
+  module * { export * }
+}
+
+module MyGuideCityLib.Swift {
+    header "MyGuideCityLib-Swift.h"
+    requires objc
+}

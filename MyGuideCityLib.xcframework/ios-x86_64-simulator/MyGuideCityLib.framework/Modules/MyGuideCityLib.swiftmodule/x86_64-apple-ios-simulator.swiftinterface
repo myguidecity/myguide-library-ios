@@ -1,0 +1,14 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target x86_64-apple-ios14.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name MyGuideCityLib
+import Foundation
+@_exported import MyGuideCityLib
+import Swift
+import UIKit
+import WebKit
+public class MyGuideCityAPI {
+  public init()
+  public static func setKey(message: Swift.String)
+  public static func makeVcWithDestination(destination: Swift.String) -> UIKit.UIViewController
+  @objc deinit
+}
